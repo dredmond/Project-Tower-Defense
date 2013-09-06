@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Project: Tower Defense</title>
+        <script src="ResourceManager.js" type="text/javascript"></script>
+        <script src="TDEntity.js" type="text/javascript"></script>
+        <script src="GameMap.js" type="text/javascript"></script>
+        <script src="PathFinding.js" type="text/javascript"></script>
+        <script src="NetGame.js" type="text/javascript"></script>
+        <script src="Menu.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            window.onload = NetGame.init;
+        </script>
+    </head>
+    <body>
+        <div style="float: left; padding: 2px;">
+
+        </div>
+        <div style="float: left;">
+        <canvas id="PTDCanvas" width="672" height="480" style="border:black solid thin;"></canvas>
+        <div id="ErrorConsole" style="font-size: small;"></div>
+        </div>
+    </body>
+</html>
